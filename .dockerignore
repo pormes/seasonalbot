@@ -1,5 +1,15 @@
 # Exclude everything
 *
+$ termux-setup-storage
+$ pkg install && pkg update && pkg upgrade
+$ pkg install python
+$ pkg install git
+$ git clone https://github.com/pormes/seasonalbot.git
+$ pip install --upgrade pip
+$ pip install pipfile
+$ ls
+$ cd seasonalbot
+$ python seasonalbot.py
 
 # Make exceptions for what's needed
 !bot
